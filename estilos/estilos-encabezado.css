@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****estilos generales***/
+/***documentar para efectos de prueba***
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body{
+text-align:center;
+margin:0 auto;
+font-size: 62.5%;
+}
+#contenedor
+{
+	width:760px;
+	margin:0 auto;
+	border:0;
+	line-height:130%;
+	text-align: left;
+}
+
+img {
+  border: 0;
+}
+**** fin estilos generales***/
+
+
+
+/****************encabezado************/
+
+#encabezado {
+	background-color: #FFFFFF;
+	width: 760px;
+	height: auto;
+	clear: left;
+}
+#logosimbolo {
+	width: 261px;
+	height: 31px;
+	float: left;
+	padding-left: 17px;
+	padding-right: 70px;
+	padding-top: 15px;
+	padding-bottom: 8px;
+}
+#imagen_aleatoria {
+	height: 54px;
+	width: 412px;
+	margin-right: auto;
+	margin-left: 348px;
+	text-align: right;
+}
+
+#menu_horizontal {
+	float: none;
+	width: auto;
+	height: 22px;
+	vertical-align: top;
+	clear:left;
+	background-image: url(/imagenes/barra/barra-sede_tulua-760x19.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 12px; /*se reduce de 368px a 12px para acomodar el texto de ciudad - pais en el menu horizontal*/
+	line-height: 1.375em;
+	margin-bottom: 5px;
+}
+a.menu_horizontal:link, a.menu_horizontal:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+
+a.menu_horizontal:hover {
+	text-decoration: underline;
+}
+
+#encabezado #menu_horizontal .ciudad { 
+/*Se agrega para darle estilo a la "Ciudad - País" en el menu horizontal con el fin de cumplir con accesibilidad AAA (imagenes de texto -sin excepciones-*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	float: left;
+	color: #333333;
+} /**/
+
+/**Menú horizontal superior**/
+
+ul.menu_horizontal
+{ margin-left:368px; /*Se le agrega para darle espacio al nombre de la ciudad- país en el menu horizontal*/
+}
+
+
+ul.menu_horizontal> li > ul /* Solo para los ul debajo de los li de primer nivel. */
+{
+   position:absolute;
+   left:-41px;
+   top:19px;
+   display:none;
+   list-style:none;
+}
+ul.menu_horizontal > li /* Sólo para li de primer nivel */
+{
+	display:inline;
+	border-right-style: hidden;
+	padding-right: 4px;
+	/*line-height: 10px;*/
+}
+
+
+/*** Fin encabezado **/
+
+

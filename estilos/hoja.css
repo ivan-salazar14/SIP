@@ -1,0 +1,247 @@
+body {
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	background: white;
+	color: black;
+}
+td.fondo_raya_vertical {
+	background-image: url("http://www.univalle.edu.co/imagenes/portada/palo_gris_vertical.gif");
+}
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #cc3300;
+	background-color: inherit;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #cc6666;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #660000;
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+.normalGrisLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	/*font-style: bold;*/
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+.normalGrisHover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	/*font-style: bold;*/
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #660000;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+.normalGrisVisited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #999999;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+.miniNegro {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+		background-color: inherit;
+        font-weight: normal; 
+}
+.botonBorrar {
+   font-family: Verdana, Arial;
+   font-size: 11px;
+   background: #F2F2F2;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   border-bottom: 1px solid #660000;
+   border-right: 1px solid #660000;
+   border-left: 1px solid #660000;
+   border-top: 1px solid #660000;
+   color:#000000;
+   height:18px;
+   font-weight: bold;
+   text-decoration:none;
+} 
+
+.enlacenohabilitado {
+  color:#333333;
+  text-align:left;
+  text-decoration:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.razonesdeliderazgo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+/*	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;*/
+	color: #000000;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+.titulocuadrorojo {
+  color:#ffffff;
+  text-align:left;
+  text-decoration:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+.titulocuadrogris {
+  color:#ffffff;
+  text-align:left;
+  text-decoration:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.MayorInformacion {
+  color:#333333;
+  text-align:left;
+  text-decoration:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+
+/*@frame banner {
+	border:0; 
+	frameborder:0;
+	framespacing:0; 
+	marginwidth:0px; 
+	marginheight:0; 
+	scrolling:no; 
+	align:middle; 
+	width:404; 
+	height:65;
+	hspace:0;
+	vspace:0;	
+}*/
+
+/*iframe.banner {
+	border:0; 
+	frameborder:0;
+	framespacing:0; 
+	marginwidth:0px; 
+	marginheight:0; 
+	scrolling:no; 
+	align:middle; 
+	width:404; 
+	height:65;
+	hspace:0;
+	vspace:0;	
+}*/
+
+/*embed.banner {
+	src: url("http://www.univalle.edu.co/noticiasyeventos/2005/celebracion60anhos/imagenes/banner/banner60.swf");
+	quality:high;
+	background: white;
+	width:376px;
+	height:64;
+	type:url("application/x-shockwave-flash");
+	pluginspace:url("http://www.macromedia.com/go/getflashplayer");
+}*/
+
+/*iframe.noticias {
+	border:0; 
+	frameborder:no;
+	framespacing:0; 
+	marginwidth:0px; 
+	marginheight:0; 
+	scrolling:no; 
+	align:top; 
+	width:297px; 
+	height:150;
+	hspace:0;
+	vspace:0;	
+}*/
+#item_derecha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: auto;
+	padding-right: 4px;
+	padding-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	padding-left: 14px;
+}
